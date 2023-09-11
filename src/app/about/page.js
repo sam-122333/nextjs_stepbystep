@@ -10,6 +10,20 @@ const About = () => {
       <h1>about Page</h1>
       <button
         onClick={() => {
+          router.push("/about/aboutcollege");
+        }}
+      >
+        click me to go in about college page
+      </button>
+      <button
+        onClick={() => {
+          router.push("/about/aboutstudent");
+        }}
+      >
+        click me to go in about student page
+      </button>
+      <button
+        onClick={() => {
           router.push("/");
         }}
       >
