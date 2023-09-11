@@ -7,14 +7,7 @@ const Login = () => {
   const router = useRouter();
   return (
     <main className={styles.main}>
-      <h1>login Page</h1>
-      <button
-        onClick={() => {
-          router.push("/");
-        }}
-      >
-        click me to go in home page
-      </button>
+      <h1 className="heading">login Page</h1>
     </main>
   );
 };
